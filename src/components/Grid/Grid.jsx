@@ -72,7 +72,6 @@ const Grid = ({ level = 'beginner' }) => {
   }
 
   const renderedCells = useMemo(() => {
-    console.log('Render new cells')
     let cells = []
 
     for (let x = 0; x < gridSize; x++) {
@@ -110,8 +109,6 @@ const Grid = ({ level = 'beginner' }) => {
       durationRef.current.startedAt = new Date()
     })
   }, [level, status])
-
-  console.log(mineKeys)
 
   return (
     <div style={{
