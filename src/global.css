@@ -1,0 +1,63 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: monospace;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+h1,
+h2,
+h3,
+menu,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+h1, h2, h3 {
+  text-transform: uppercase;
+}
+
+h1 {
+  font-size: 20px;
+}
+
+h2 {
+  font-size: 18px;
+  
+}
+
+h3 {
+  font-size: 16px;
+}
+button {
+  background-color: #000;
+  color: #fff;
+  font-family: inherit;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border: 2px solid #000;
+  font-size: inherit;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+button.secondary {
+  background-color: #fff;
+  border: 2px solid #000;
+  color: #000;
+}
+
+button.primary {
+  background-color: #000;
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+input[type="radio"] {
+  cursor: pointer;
+}
